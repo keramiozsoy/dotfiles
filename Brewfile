@@ -9,3 +9,5 @@ cask "clipy"
 cask "intellij-idea-ce"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# Unpacks archive files
+cask "the-unarchiver"
