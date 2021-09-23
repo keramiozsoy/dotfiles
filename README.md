@@ -29,3 +29,6 @@ cd ~/.dotfiles
 
 brew bundle dump --describe 
 
+# install all necessary with command
+brew bundle --file ~/.dotfiles/Brewfile
+
