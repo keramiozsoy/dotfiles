@@ -32,3 +32,50 @@ brew bundle dump --describe
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
 
+
+
+------
+
+mvn --version
+
+vi .zshrc 
+
+
+	export M2_HOME=/opt/homebrew/Cellar/maven/3.8.2/libexec
+	export M2=$M2_HOME/bin
+	export PATH=$PATH:$M2_HOME/bin
+
+	export PATH="$HOME/.jenv/bin:$PATH"
+  	eval "$(jenv init -)"
+
+source .zshrc
+
+------
+
+
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+
+jenv versions
+
+
+jenv local 1.8
+java -version
+
+jenv local 11
+java -version
+
+
+echo $JAVA_HOME
+
+jenv enable-plugin maven
+jenv enable-plugin export
+
+restart
+
+echo $JAVA_HOME
+
+
+
+
+
