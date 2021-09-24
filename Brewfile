@@ -1,12 +1,29 @@
+tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+# Manage your Java environment
+brew "jenv"
+# Java-based project management
+brew "maven"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk11"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk8"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Clipboard extension app
 cask "clipy"
+# App to build and share containerized applications and microservices
+cask "docker"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
+# Collaboration platform for API development
+cask "postman"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Unpacks archive files
