@@ -20,6 +20,8 @@ cask "clipy"
 cask "docker"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -28,3 +30,5 @@ cask "rectangle"
 cask "sublime-text"
 # Unpacks archive files
 cask "the-unarchiver"
+# All-in-One Java Troubleshooting Tool
+cask "visualvm"

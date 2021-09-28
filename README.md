@@ -22,15 +22,19 @@ mv ~/.zshrc ~/.dotfiles/.zshrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
+# How to recreate Brewfile
 
+```
 cd ~/.dotfiles
+rm Brewfile
 
-# below command will create file already installed dependecies of brew. *(Brewfile)
-
-brew bundle dump --describe 
+# Below command will create file already installed dependecies of brew.
+brew bundle dump --describe
 
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
+```
+
 
 
 
