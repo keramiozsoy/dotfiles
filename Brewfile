@@ -4,6 +4,8 @@ tap "homebrew/cask"
 tap "homebrew/core"
 # Manage your Java environment
 brew "jenv"
+# Run local Kubernetes cluster in Docker
+brew "kind"
 # Java-based project management
 brew "maven"
 # Run a Kubernetes cluster locally
@@ -16,6 +18,8 @@ cask "adoptopenjdk8"
 cask "brave-browser"
 # Clipboard extension app
 cask "clipy"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
 # IDE for Java development - community edition
