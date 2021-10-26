@@ -85,6 +85,7 @@ echo $JAVA_HOME
 Intellij Idea Plugins
 
 	AsciiDoc 			  ( Documentation )
+	Google-java-format
 	Grazie				  ( Provides intelligent spelling and grammar checks for test that you write in the IDE )
 	JPA Buddy
 	Key Promoter X        ( Shortcut Helper)
