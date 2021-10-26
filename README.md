@@ -80,6 +80,19 @@ restart
 echo $JAVA_HOME
 
 
+-----
+
+Intellij Idea Plugins
+
+	AsciiDoc 
+	Grazie
+	Key Promother X
+	Lombok 
+	PlantUML
+	SonarLint
+
+
+
 
 
 
