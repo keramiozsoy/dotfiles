@@ -84,9 +84,10 @@ echo $JAVA_HOME
 
 Intellij Idea Plugins
 
-	AsciiDoc 			  ( Documentation Helper)
+	AsciiDoc 			  ( Documentation )
 	Grazie				  ( Provides intelligent spelling and grammar checks for test that you write in the IDE )
-	Key Promother X       ( Shortcut Helper)
+	JPA Buddy
+	Key Promoter X        ( Shortcut Helper)
 	Lombok 				  ( Annotations Helper)
 	PlantUML Integration  ( Diagramming Tool)
 	SonarLint 			  ( Helps you detect and fix quality issues as you write code)
