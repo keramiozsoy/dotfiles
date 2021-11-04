@@ -64,9 +64,11 @@ jenv versions
 
 
 jenv global 1.8
+
 java -version
 
 jenv global 11
+
 java -version
 
 
