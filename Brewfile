@@ -2,6 +2,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Manage your Java environment
+brew "jenv"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Java-based project management
