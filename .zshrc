@@ -2,8 +2,8 @@ export M2_HOME=/opt/homebrew/Cellar/maven/3.8.2/libexec
 export M2=$M2_HOME/bin
 export PATH=$PATH:$M2_HOME/bin
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+#export PATH="$HOME/.jenv/bin:$PATH"
+#eval "$(jenv init -)"
 
 # CUSTOM
 

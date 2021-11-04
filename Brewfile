@@ -1,19 +1,13 @@
-tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
-# Manage your Java environment
-brew "jenv"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Java-based project management
 brew "maven"
 # Run a Kubernetes cluster locally
 brew "minikube"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk11"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk8"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Clipboard extension app
@@ -32,6 +26,12 @@ cask "postman"
 cask "rectangle"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin11"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin8"
 # Unpacks archive files
 cask "the-unarchiver"
 # All-in-One Java Troubleshooting Tool
