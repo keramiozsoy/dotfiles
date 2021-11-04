@@ -33,6 +33,8 @@ brew bundle dump --describe
 
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
+
+rm brew.lock
 ```
 
 
@@ -57,9 +59,12 @@ source .zshrc
 ------
 
 
-jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/
+jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
 
-jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+jenv add /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/
+
+jenv add /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/
+
 
 jenv versions
 
