@@ -63,13 +63,13 @@ jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
 jenv versions
 
 
-jenv global 1.8
+ jenv global 1.8
 
-java -version
+- java -version
 
-jenv global 11
+ jenv global 11
 
-java -version
+- java -version
 
 
 echo $JAVA_HOME
