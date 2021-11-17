@@ -138,3 +138,8 @@ $ brew install --cask
 - loom
 - zoom
 
+
+- uninstalled 
+brew install --cask osxfuse
+brew install ntfs-3g (windows harddisk connect)
+
