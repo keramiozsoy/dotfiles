@@ -103,6 +103,38 @@ Intellij Idea Plugins
 
 
 
+$ brew install 
+- wget ( dependencies will download automatically = gettext, libunistring, libidn2, ca-certificates, openssl@1.1 )
+- httpie (dependencies will download automatically = gdbm, mpdecimal, readline, sqlite, xz and python@3.10)
+- dive
+- helm
+- kind
+- jenv
+- kubectx
+- maven
+- minikube
 
 
+
+$ brew install --cask
+- brave-browser
+- dbeaver-community
+- intellij-idea-ce
+- postman		
+- sublime-text	
+- the-unarchiver		
+- vlc
+- clipy	
+- calibre		
+- docker			
+- iterm2			
+- rectangle		
+- temurin			
+- temurin8		
+- temurin11		
+- visualvm
+- virtualbox
+- virtualbox-extension-pack		
+- loom
+- zoom
 
