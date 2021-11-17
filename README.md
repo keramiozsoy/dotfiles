@@ -34,7 +34,7 @@ brew bundle dump --describe
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
 
-rm brew.lock
+rm Brewfile.lock.json
 ```
 
 

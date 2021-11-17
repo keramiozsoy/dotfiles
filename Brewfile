@@ -2,6 +2,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Manage your Java environment
 brew "jenv"
 # Run local Kubernetes cluster in Docker
@@ -38,3 +40,5 @@ cask "temurin8"
 cask "the-unarchiver"
 # All-in-One Java Troubleshooting Tool
 cask "visualvm"
+# Video communication and virtual meeting platform
+cask "zoom"
