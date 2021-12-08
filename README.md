@@ -13,6 +13,11 @@ git config user.name "YOUR_USER_NAME"
 git config user.email YOUR_MAIL_ADDRESS
 ```
 
+# install ohmyzsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 # create custom location of zshrc
 ```
 mv ~/.zshrc ~/.dotfiles/.zshrc
@@ -20,11 +25,6 @@ mv ~/.zshrc ~/.dotfiles/.zshrc
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
-
-# install ohmyzsh
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 
 # install custom ohmyzsh plugins
 
