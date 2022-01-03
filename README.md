@@ -59,7 +59,7 @@ restart your terminal
 
 
 
-## Maven and Multiple JDK
+## Maven Config, Jenv and Multiple JDK
 ```
 $ mvn --version
 
@@ -78,7 +78,10 @@ $ source .zshrc
 
 restart your terminal
 
+
 ```
+#Add path of jdk with "jenv add" command to use.
+
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
 
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/
