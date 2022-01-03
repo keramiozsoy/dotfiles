@@ -101,7 +101,7 @@ $ echo $JAVA_HOME
 $ jenv enable-plugin maven
 $ jenv enable-plugin export
 
-restart
+restart your terminal
 
 $ echo $JAVA_HOME
 
@@ -145,7 +145,7 @@ rm Brewfile.lock.json
 ```
 
 
-## Dont run below commands instead use "brew bundle"
+## Dont run below commands use "brew bundle"
 ```
 $ brew install 
 - wget ( dependencies will download automatically = gettext, libunistring, libidn2, ca-certificates, openssl@1.1 )
