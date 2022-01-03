@@ -10,7 +10,7 @@ https://brew.sh/
 
 
 ```
-https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
+git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
 
 git config user.name "YOUR_USER_NAME"
 git config user.email YOUR_MAIL_ADDRESS
@@ -56,26 +56,6 @@ plugins=(
 )
 
 reopen terminal
-```
-
-
-
-# How to recreate Brewfile
-
-```
-cd ~/.dotfiles
-
-
-# Below command will create file already installed dependecies of brew.
-brew bundle dump --describe
-
-# If you get error
-rm Brewfile
-
-# install all necessary with command
-brew bundle --file ~/.dotfiles/Brewfile
-
-rm Brewfile.lock.json
 ```
 
 
@@ -128,6 +108,25 @@ $ echo $JAVA_HOME
 
 ```
 
+
+
+# How to recreate Brewfile
+
+```
+cd ~/.dotfiles
+
+
+# Below command will create file already installed dependecies of brew.
+brew bundle dump --describe
+
+# If you get error
+rm Brewfile
+
+# install all necessary with command
+brew bundle --file ~/.dotfiles/Brewfile
+
+rm Brewfile.lock.json
+```
 
 
 
