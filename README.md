@@ -54,7 +54,7 @@ plugins=(
 	zsh-history-substring-search
 )
 
-reopen terminal
+restart your terminal
 ```
 
 
@@ -74,9 +74,11 @@ $ vi .zshrc
 
 $ source .zshrc
 
-------
+```
 
+restart your terminal
 
+```
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
 
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/
