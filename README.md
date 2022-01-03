@@ -1,8 +1,7 @@
 # dotfiles
 
-Open terminal on your home directory.
 
-https://brew.sh/
+## install brew
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -16,12 +15,12 @@ git config user.name "YOUR_USER_NAME"
 git config user.email YOUR_MAIL_ADDRESS
 ```
 
-# install ohmyzsh
+## install ohmyzsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-# create custom location of zshrc
+## create custom location of zshrc
 ```
 mv ~/.zshrc ~/.dotfiles/.zshrc
 
@@ -29,7 +28,7 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 
-# install custom ohmyzsh plugins
+## install custom ohmyzsh plugins
 
 ```
 git clone https://github.com/zsh-users/zsh-completions.git $ZSH_CUSTOM/plugins/zsh-completions
@@ -60,7 +59,7 @@ reopen terminal
 
 
 
-# Maven and Multiple JDK
+## Maven and Multiple JDK
 ```
 $ mvn --version
 
@@ -110,7 +109,7 @@ $ echo $JAVA_HOME
 
 
 
-# How to recreate Brewfile
+## How to recreate Brewfile
 
 ```
 cd ~/.dotfiles
@@ -130,7 +129,7 @@ rm Brewfile.lock.json
 
 
 
-# Intellij Idea Plugins
+## Intellij Idea Plugins
 ```
 	- AsciiDoc 			  ( Documentation )
 	- Google-java-format
@@ -146,7 +145,7 @@ rm Brewfile.lock.json
 ```
 
 
-# Dont run below commands instead use "brew bundle"
+## Dont run below commands instead use "brew bundle"
 ```
 $ brew install 
 - wget ( dependencies will download automatically = gettext, libunistring, libidn2, ca-certificates, openssl@1.1 )
