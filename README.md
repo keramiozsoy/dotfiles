@@ -147,6 +147,7 @@ rm Brewfile.lock.json
 	- Makefile Language
 	- VisualVM Launcher
 	- Kubernetes
+	- Go Templates
 ```
 
 
