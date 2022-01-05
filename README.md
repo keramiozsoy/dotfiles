@@ -120,11 +120,11 @@ $ echo $JAVA_HOME
 cd ~/.dotfiles
 
 
+rm Brewfile
+
 # Below command will create file already installed dependecies of brew.
 brew bundle dump --describe
 
-# If you get error
-rm Brewfile
 
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
@@ -178,7 +178,8 @@ $ brew install --cask
 - clipy	
 - calibre		
 - docker			
-- iterm2			
+- iterm2
+- meld			
 - rectangle		
 - temurin			
 - temurin8		

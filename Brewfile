@@ -4,6 +4,8 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 # Tool for exploring each layer in a docker image
 brew "dive"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
 # Kubernetes package manager
 brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -42,6 +44,8 @@ cask "intellij-idea-ce"
 cask "iterm2"
 # Screen and video recording software
 cask "loom"
+# Visual diff and merge tool
+cask "meld"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -62,3 +66,8 @@ cask "visualvm"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
