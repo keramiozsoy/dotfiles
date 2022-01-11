@@ -192,8 +192,10 @@ $ brew install --cask
 
 
 $$ I havent installed yet
+brew install --cask soapui --noquarantine
 brew install --cask osxfuse
 brew install ntfs-3g (windows harddisk connect)
 mas install 605732865 ( RSS BOT )
 mas install 1289197285 ( MindNote )
+
 ```
