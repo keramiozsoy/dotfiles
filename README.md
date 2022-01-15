@@ -73,7 +73,7 @@ I explained how i added to use above plugins.
 If you don't want to use, please put # before each line to set as a comment line in the .zshrc file.
 
 ```
-nano ~/.zshrc
+vi  ~/.dotfiles/.zshrc
 
 plugins=(
 	git
@@ -94,18 +94,16 @@ restart your terminal
 ```
 $ mvn --version
 
-$ vi .zshrc 
+$ vi  ~/.dotfiles/.zshrc 
 
 	export M2_HOME=/opt/homebrew/Cellar/maven/3.8.2/libexec
 	export M2=$M2_HOME/bin
 	export PATH=$PATH:$M2_HOME/bin
 
-$ source .zshrc
-
-
-```
+$ source  ~/.dotfiles/.zshrc
 
 restart your terminal
+```
 
 
 ## How to manage multiple JDK with jenv tool ?
@@ -157,18 +155,24 @@ $ jenv global 11
 
 $ java -version
 
-$ echo $JAVA_HOME
-
-$ jenv enable-plugin maven
-$ jenv enable-plugin export
-
-restart your terminal
-
-$ echo $JAVA_HOME
-
 ```
 
+Step 4 
 
+- Let's check JAVA_HOME can work.
+- If it isnt working, enable blow plugins.
+
+```
+$ echo $JAVA_HOME
+```
+```
+$ jenv enable-plugin maven
+$ jenv enable-plugin export
+```
+restart your terminal
+```
+$ echo $JAVA_HOME
+```
 
 ## How to recreate Brewfile
 
