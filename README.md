@@ -229,7 +229,7 @@ $ echo $JAVA_HOME
 | Go Templates 		| Go language helper |
 | Kubernetes		| Kubernetes helper |
 
-## Dont run below commands use "brew bundle"
+## Don't run below commands use "brewfile"
 ```
 $ brew install 
 - wget ( dependencies will download automatically = gettext, libunistring, libidn2, ca-certificates, openssl@1.1 )
