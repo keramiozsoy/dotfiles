@@ -90,7 +90,7 @@ restart your terminal
 
 
 
-## Maven Config, Jenv and Multiple JDK
+## Maven Configs
 ```
 $ mvn --version
 
@@ -106,7 +106,9 @@ restart your terminal
 ```
 
 
-## How to manage multiple JDK with jenv tool ?
+##  Jenv and Multiple JDK 
+
+Let's learn how to manage multiple JDK with jenv tool.
 
 Step 1
 
@@ -179,17 +181,14 @@ $ echo $JAVA_HOME
 ```
 cd ~/.dotfiles
 
-
+rm Brewfile.lock.json
 rm Brewfile
 
 # Below command will create file already installed dependecies of brew.
 brew bundle dump --describe
 
-
 # install all necessary with command
 brew bundle --file ~/.dotfiles/Brewfile
-
-rm Brewfile.lock.json
 ```
 
 
