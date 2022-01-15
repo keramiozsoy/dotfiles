@@ -66,10 +66,12 @@ cask "visualvm"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "RSS BOT - News Notifier (2.8)", id: 605732865
-mas "Mind Node - Mind Map % Outline (2021.5)", id: 1289197285
+
+
+#mas "GarageBand", id: 682658836
+#mas "iMovie", id: 408981434
+#mas "Keynote", id: 409183694
+#mas "Numbers", id: 409203825
+#mas "Pages", id: 409201541
+#mas "RSS BOT - News Notifier (2.8)", id: 605732865
+#mas "Mind Node - Mind Map % Outline (2021.5)", id: 1289197285
