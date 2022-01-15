@@ -12,7 +12,36 @@
 git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
 ```
 
-## set your configs
+## Install all necessary programs via my Brewfile
+
+
+- Install all necessary programs via my Brewfile
+
+```
+brew bundle --file ~/.dotfiles/Brewfile
+```
+
+- If you don't want to use my Brewfile, you can generate yours.
+
+```
+brew bundle dump --describe
+```
+
+- If you want to genereate new brewfile which includes all apps installed via "brew install" on your computer.
+
+```
+cd ~/.dotfiles
+
+rm Brewfile.lock.json
+rm Brewfile
+
+brew bundle dump --describe
+
+brew bundle --file ~/.dotfiles/Brewfile
+```
+
+
+# if you want to send the latest changes of your local area to this repository
 
 ```
 cd ~/.dotfiles
@@ -91,6 +120,9 @@ restart your terminal
 
 
 ## Maven Configs
+
+- I explained how i added to use mvn via my .zshrc
+
 ```
 $ mvn --version
 
@@ -102,7 +134,7 @@ $ vi  ~/.dotfiles/.zshrc
 
 $ source  ~/.dotfiles/.zshrc
 
-restart your terminal
+$ mvn --version
 ```
 
 
@@ -175,22 +207,6 @@ restart your terminal
 ```
 $ echo $JAVA_HOME
 ```
-
-## How to recreate Brewfile
-
-```
-cd ~/.dotfiles
-
-rm Brewfile.lock.json
-rm Brewfile
-
-# Below command will create file already installed dependecies of brew.
-brew bundle dump --describe
-
-# install all necessary with command
-brew bundle --file ~/.dotfiles/Brewfile
-```
-
 
 
 ## Intellij Idea Plugins
