@@ -13,6 +13,11 @@ git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
 ```
 
 ## set your configs
+
+```
+cd ~/.dotfiles
+```
+
 ```
 git config user.name "YOUR_USER_NAME"
 ```
