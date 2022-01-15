@@ -148,15 +148,13 @@ Step 1
 
 ```
 $ vi .zshrc 
-```
 
-Copy -> Paste -> Save -> Close .zshrc file
+```
+Add -> Save -> Close
 ```
 	export PATH="$HOME/.jenv/bin:$PATH"
   	eval "$(jenv init -)"
-```	
-
-```	
+```
 $ source .zshrc
 ```
 
