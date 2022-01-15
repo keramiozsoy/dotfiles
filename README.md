@@ -100,18 +100,39 @@ $ vi .zshrc
 	export M2=$M2_HOME/bin
 	export PATH=$PATH:$M2_HOME/bin
 
-	export PATH="$HOME/.jenv/bin:$PATH"
-  	eval "$(jenv init -)"
-
 $ source .zshrc
+
 
 ```
 
 restart your terminal
 
 
+## How to manage multiple JDK with jenv tool ?
+
+Step 1
+
+In this step, we will ensure to ready jenv tool.
+
 ```
-#Add path of jdk with "jenv add" command to use.
+$ vi .zshrc 
+```
+
+Copy -> Paste -> Save -> Close .zshrc file
+```
+	export PATH="$HOME/.jenv/bin:$PATH"
+  	eval "$(jenv init -)"
+```	
+
+```	
+$ source .zshrc
+```
+
+Step 2
+
+We will add which java versions can be use by jenv
+
+```
 
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
 
@@ -121,8 +142,13 @@ $ jenv add /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/
 
 
 $ jenv versions
+```
 
+Step 3 
 
+Set global java to use as $JAVA_HOME
+
+```
 $ jenv global 1.8
 
 $ java -version
@@ -130,7 +156,6 @@ $ java -version
 $ jenv global 11
 
 $ java -version
-
 
 $ echo $JAVA_HOME
 
