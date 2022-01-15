@@ -47,7 +47,7 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 
-## install custom ohmyzsh plugins
+##### install custom ohmyzsh plugins
 
 ```
 git clone https://github.com/zsh-users/zsh-completions.git $ZSH_CUSTOM/plugins/zsh-completions
