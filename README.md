@@ -7,7 +7,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## install dotfiles project
+## install this project
 ```
 git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
 ```
