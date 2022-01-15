@@ -6,6 +6,8 @@ tap "homebrew/core"
 brew "dive"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Go version management
+brew "goenv"
 # Kubernetes package manager
 brew "helm"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -64,6 +66,8 @@ cask "temurin11"
 cask "temurin8"
 # Unpacks archive files
 cask "the-unarchiver"
+# RSS and Atom reader
+cask "vienna"
 # All-in-One Java Troubleshooting Tool
 cask "visualvm"
 # Multimedia player
@@ -75,5 +79,3 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "RSS BOT - News Notifier (2.8)", id: 605732865
-mas "Mind Node - Mind Map % Outline (2021.5)", id: 1289197285
