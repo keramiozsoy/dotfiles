@@ -158,17 +158,11 @@ $ source .zshrc
 
 Step 2
 
-- We will add which java versions can be use by jenv
-
 - I installed these JDKs via my Brewfile. If you would like to use another JDK you should install by yourself
 and get their paths where they were installed.
 
+Example
 ```
-
-$ jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
-
-$ jenv add /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/
-
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/
 
 
@@ -180,11 +174,15 @@ Step 3
 - Set global java to use as $JAVA_HOME
 
 ```
-$ jenv global 1.8
+$ jenv global openjdk64-17.0.1
 
 $ java -version
 
-$ jenv global 11
+$ jenv global openjdk64-11.0.13
+
+$ java -version
+
+$ jenv global openjdk64-1.8.0.312
 
 $ java -version
 
