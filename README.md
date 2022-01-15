@@ -278,6 +278,15 @@ $ source .zshrc
 | Go Templates 		| Go language helper |
 | Kubernetes		| Kubernetes helper |
 
+
+## SublimeText Plugins
+
+| Plugin  	| Info |
+| ------------- | ------------- |
+| Highlight Duplicates  | Automatically detect same text on file  |
+| Indent XML            | xml formatter  |
+
+
 ## Don't run below commands use "brewfile"
 ```
 $ brew install 
