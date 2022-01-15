@@ -213,21 +213,21 @@ $ echo $JAVA_HOME
 
 
 ## Intellij Idea Plugins
-```
-	- AsciiDoc 			  ( Documentation )
-	- Google-java-format
-	- Grazie				  ( Provides intelligent spelling and grammar checks for test that you write in the IDE )
-	- JPA Buddy
-	- Key Promoter X        ( Shortcut Helper)
-	- Lombok 				  ( Annotations Helper)
-	- PlantUML Integration  ( Diagramming Tool)
-	- SonarLint 			  ( Helps you detect and fix quality issues as you write code)
-	- Makefile Language
-	- VisualVM Launcher
-	- Kubernetes
-	- Go Templates
-```
 
+| Plugin  	| Info |
+| ------------- | ------------- |
+| AsciiDoc            | Documentation  |
+| Key Promoter X      | Intellij Shortcut Helper  |
+| Grazie		| Provides intelligent spelling and grammar checks for test that you write in the IDE |
+| SonarLint 		| Helps you detect and fix quality issues as you write code|
+| Google-java-format  	| Java Formatter|
+| JPA Buddy 		| Java Persistence API helper |
+| Lombok 		| Java Annotations Helper
+| PlantUML Integration	| Diagramming Tool |
+| Makefile Language	| helper for Makefile |
+| VisualVM Launcher 	| Heap dump, thread dump |
+| Go Templates 		| Go language helper |
+| Kubernetes		| Kubernetes helper |
 
 ## Dont run below commands use "brew bundle"
 ```
