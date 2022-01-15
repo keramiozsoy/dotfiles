@@ -28,17 +28,17 @@ git config user.email YOUR_MAIL_ADDRESS
 
 ## ohmyzsh let's delete if exists and install again.
 
-### delete
+##### delete
 ```
 rm -rvf /Users/$USER/.oh-my-zsh
 ```
 
-### install
+##### install
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### create custom location of zshrc
+##### create custom location of zshrc
 ```
 mv ~/.zshrc ~/.dotfiles/.zshrc
 ```
