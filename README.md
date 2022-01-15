@@ -118,26 +118,6 @@ restart your terminal
 ```
 
 
-
-## Maven Configs
-
-- I explained how i added to use mvn via my .zshrc
-
-```
-$ mvn --version
-
-$ vi  ~/.dotfiles/.zshrc 
-
-	export M2_HOME=/opt/homebrew/Cellar/maven/3.8.2/libexec
-	export M2=$M2_HOME/bin
-	export PATH=$PATH:$M2_HOME/bin
-
-$ source  ~/.dotfiles/.zshrc
-
-$ mvn --version
-```
-
-
 ##  Jenv and Multiple JDK 
 
 Let's learn how to manage multiple JDK with jenv tool.
@@ -203,6 +183,81 @@ $ jenv enable-plugin export
 restart your terminal
 ```
 $ echo $JAVA_HOME
+```
+
+
+## Maven Settings
+
+- I explained how i added to use mvn via my .zshrc
+
+```
+$ mvn --version
+
+$ vi  ~/.dotfiles/.zshrc 
+
+	export M2_HOME=/opt/homebrew/Cellar/maven/3.8.2/libexec
+	export M2=$M2_HOME/bin
+	export PATH=$PATH:$M2_HOME/bin
+
+$ source  ~/.dotfiles/.zshrc
+
+$ mvn --version
+```
+
+
+##  rbenv and Multiple Ruby 
+
+Let's learn how to manage multiple Ruby with rbenv tool.
+
+Step 1
+
+- In this step, we will ensure to ready rbenv tool.
+
+```
+$ vi .zshrc 
+
+
+	export PATH="$HOME/.rbenv/bin:$PATH"
+  	eval "$(rbenv init -)"
+
+$ source .zshrc
+```
+
+##  pyenv and Multiple Python 
+
+Let's learn how to manage multiple Python with pyenv tool.
+
+Step 1
+
+- In this step, we will ensure to ready pyenv tool.
+
+```
+$ vi .zshrc 
+
+
+	export PATH="$HOME/.pyenv/bin:$PATH"
+  	eval "$(pyenv init -)"
+
+$ source .zshrc
+```
+
+
+##  goenv and Multiple Go 
+
+Let's learn how to manage multiple Go with goenv tool.
+
+Step 1
+
+- In this step, we will ensure to ready goenv tool.
+
+```
+$ vi .zshrc 
+
+
+	export PATH="$HOME/.goenv/bin:$PATH"
+  	eval "$(goenv init -)"
+
+$ source .zshrc
 ```
 
 
