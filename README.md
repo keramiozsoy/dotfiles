@@ -235,11 +235,14 @@ $ brew install
 - dive
 - helm
 - kind
-- jenv
 - kubectx
 - maven
 - minikube
 - mas
+- jenv
+- rbenv
+- pyenv
+- goenv
 
 
 
