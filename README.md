@@ -47,7 +47,12 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 
-##### install custom ohmyzsh plugins
+##### install custom ohmyzsh plugins 
+
+If you want to use these plugins, you should run step 1 commands.
+If you don't want to use these plugins, jump step 2 which is how i have already updated on .zshrc.
+
+Step 1
 
 ```
 git clone https://github.com/zsh-users/zsh-completions.git $ZSH_CUSTOM/plugins/zsh-completions
@@ -59,8 +64,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 git clone https://github.com/zsh-users/zsh-history-substring-search.git $ZSH_CUSTOM/plugins/zsh-history-substring-search
+```
 
 
+Step 2
+
+I explained how i added to use above plugins.
+If you don't want to use, please put # before each line to set as a comment line in the .zshrc file.
+
+```
 nano ~/.zshrc
 
 plugins=(
