@@ -164,6 +164,9 @@ Step 2
 
 - We will add which java versions can be use by jenv
 
+- I installed these JDKs via my Brewfile. If you would like to use another JDK you should install by yourself
+and get their paths where they were installed.
+
 ```
 
 $ jenv add /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/
