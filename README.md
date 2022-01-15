@@ -26,7 +26,14 @@ git config user.name "YOUR_USER_NAME"
 git config user.email YOUR_MAIL_ADDRESS
 ```
 
-## install ohmyzsh
+## ohmyzsh let's delete if exists and install again.
+
+## delete
+```
+rm -rvf /Users/$USER/.oh-my-zsh
+```
+
+## install
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
