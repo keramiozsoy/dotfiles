@@ -28,17 +28,17 @@ git config user.email YOUR_MAIL_ADDRESS
 
 ## ohmyzsh let's delete if exists and install again.
 
-##### delete
+#### delete
 ```
 rm -rvf /Users/$USER/.oh-my-zsh
 ```
 
-##### install
+#### install
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-##### create custom location of zshrc
+#### create custom location of zshrc
 ```
 mv ~/.zshrc ~/.dotfiles/.zshrc
 ```
@@ -47,10 +47,10 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 
 
-##### install custom ohmyzsh plugins 
+#### install custom ohmyzsh plugins 
 
-If you want to use these plugins, you should run step 1 commands.
-If you don't want to use these plugins, jump step 2 which is how i have already updated on .zshrc.
+- If you want to use these plugins, you should run step 1 commands.
+- If you don't want to use these plugins, jump step 2 which is how i have already updated on .zshrc.
 
 Step 1
 
@@ -112,7 +112,7 @@ restart your terminal
 
 Step 1
 
-In this step, we will ensure to ready jenv tool.
+- In this step, we will ensure to ready jenv tool.
 
 ```
 $ vi .zshrc 
@@ -130,7 +130,7 @@ $ source .zshrc
 
 Step 2
 
-We will add which java versions can be use by jenv
+- We will add which java versions can be use by jenv
 
 ```
 
@@ -146,7 +146,7 @@ $ jenv versions
 
 Step 3 
 
-Set global java to use as $JAVA_HOME
+- Set global java to use as $JAVA_HOME
 
 ```
 $ jenv global 1.8
