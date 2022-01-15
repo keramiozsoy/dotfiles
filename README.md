@@ -262,7 +262,8 @@ $ brew install --cask
 - rectangle		
 - temurin			
 - temurin8		
-- temurin11		
+- temurin11
+- vienna		
 - visualvm
 - virtualbox
 - virtualbox-extension-pack		
