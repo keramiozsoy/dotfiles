@@ -332,8 +332,11 @@ $ brew install --cask
 
 
 $$ I havent installed yet
-brew install --cask soapui --noquarantine
-brew install --cask osxfuse
-brew install ntfs-3g (windows harddisk connect)
+
+- brew install --cask soapui --noquarantine
+- brew install --cask osxfuse
+- brew install ntfs-3g (windows harddisk connect)
+
+- mas install 605732865 # rss bot
 
 ```
