@@ -44,6 +44,8 @@ cask "clipy"
 cask "dbeaver-community"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Collaborative team software
+cask "figma"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
