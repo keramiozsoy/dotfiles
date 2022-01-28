@@ -281,10 +281,10 @@ $ source .zshrc
 
 ## SublimeText Plugins
 
-| Plugin  	| Info |
+| Plugin  	| Info | ShortCut| 
 | ------------- | ------------- |
-| Highlight Duplicates  | Automatically detect same text on file  |
-| Indent XML            | xml formatter  |
+| Highlight Duplicates  | Automatically detect same text on file  | Automatically| 
+| Indent XML            | xml formatter  | Crtl-K Ctrl-F |
 
 
 ## Don't run below commands use "brewfile"
