@@ -281,8 +281,8 @@ $ source .zshrc
 
 ## SublimeText Plugins
 
-| Plugin  	| Info | ShortCut| 
-| ------------- | ------------- |
+| Plugin  		| Info 			| ShortCut		| 
+| ------------- | ------------- | ------------- |
 | Highlight Duplicates  | Automatically detect same text on file  | Automatically| 
 | Indent XML            | xml formatter  | Crtl-K Ctrl-F |
 
@@ -309,6 +309,7 @@ $ brew install
 $ brew install --cask
 - brave-browser
 - dbeaver-community
+- tableplus
 - intellij-idea-ce
 - postman		
 - sublime-text	
