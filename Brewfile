@@ -1,3 +1,4 @@
+tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -16,10 +17,16 @@ brew "httpie"
 brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Little helper to run Rancher Lab's k3s in Docker
+brew "k3d"
 # Run local Kubernetes cluster in Docker
 brew "kind"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Kyma command-line interface
+brew "kyma-cli"
 # Mac App Store command-line interface
 brew "mas"
 # Java-based project management
@@ -30,10 +37,14 @@ brew "minikube"
 brew "pyenv"
 # Ruby version manager
 brew "rbenv"
+# Terminal multiplexer
+brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Prebuilt OpenJDK binaries
+cask "adoptopenjdk8"
 # Web browser focusing on privacy
 cask "brave-browser"
 # E-books management software
