@@ -323,6 +323,7 @@ $ brew install --cask
 - temurin			
 - temurin8		
 - temurin11
+- adoptopenjdk/openjdk/adoptopenjdk8
 - vienna		
 - visualvm
 - virtualbox
