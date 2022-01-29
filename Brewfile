@@ -71,6 +71,8 @@ cask "postman"
 cask "rectangle"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# Native GUI tool for relational databases
+cask "tableplus"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin"
 # JDK from the Eclipse Foundation (Adoptium)
