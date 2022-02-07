@@ -43,6 +43,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk11"
 # Prebuilt OpenJDK binaries
 cask "adoptopenjdk8"
 # Web browser focusing on privacy
