@@ -281,10 +281,17 @@ $ source .zshrc
 
 ## SublimeText Plugins
 
-| Plugin  		| Info 			| ShortCut		| 
+~~~
+command + shift + p
+Install package -> enter
+Type which plugin you want to download.
+~~~
+
+| Plugin  		| Info 			| Shortcut		| 
 | ------------- | ------------- | ------------- |
 | Highlight Duplicates  | Automatically detect same text on file  | Automatically| 
 | Indent XML            | xml formatter  | Crtl-K Ctrl-F |
+| Markdown Extended| .md file language-specific highlighter|
 
 
 ## Don't run below commands use "brewfile"
@@ -325,6 +332,7 @@ $ brew install --cask
 - temurin8		
 - temurin11
 - adoptopenjdk/openjdk/adoptopenjdk8
+- adoptopenjdk/openjdk/adoptopenjdk11
 - vienna		
 - visualvm
 - virtualbox
