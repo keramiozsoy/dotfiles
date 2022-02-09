@@ -292,7 +292,8 @@ Type which plugin you want to download.
 | Highlight Duplicates  | Automatically detect same text on file  | Automatically| 
 | Indent XML            | xml formatter  | Crtl-K Ctrl-F |
 | Markdown Extended| .md file language-specific highlighter|
-
+| MarkdownLivePreview| offline .md preview plugin|
+| MarkdownTOC  | auto insert table of content |
 
 ## Don't run below commands use "brewfile"
 ```
@@ -341,7 +342,7 @@ $ brew install --cask
 - zoom
 
 
-$$ I havent installed yet
+$$ I haven't installed yet
 
 - brew install --cask soapui --noquarantine
 - brew install --cask osxfuse
