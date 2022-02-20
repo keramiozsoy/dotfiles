@@ -83,6 +83,8 @@ cask "temurin11"
 cask "temurin8"
 # Unpacks archive files
 cask "the-unarchiver"
+# Virtual machines UI using QEMU
+cask "utm"
 # RSS and Atom reader
 cask "vienna"
 # All-in-One Java Troubleshooting Tool
