@@ -1,3 +1,26 @@
+<!-- MarkdownTOC autolink=true-->
+
+- dotfiles
+	- install brew
+	- install this project
+	- Install all necessary programs via my Brewfile
+- if you want to send the latest changes of your local area to this repository
+	- ohmyzsh let's delete if exists and install again.
+		- delete
+		- install
+		- create custom location of zshrc
+		- install custom ohmyzsh plugins
+	- Jenv and Multiple JDK
+	- Maven Settings
+	- rbenv and Multiple Ruby
+	- pyenv and Multiple Python
+	- goenv and Multiple Go
+	- Intellij Idea Plugins
+	- SublimeText Plugins
+	- Don't run below commands use "brewfile"
+
+<!-- /MarkdownTOC -->
+
 # dotfiles
 
 
