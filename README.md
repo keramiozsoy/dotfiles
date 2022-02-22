@@ -1,23 +1,23 @@
-<!-- MarkdownTOC autolink=true-->
+<!-- MarkdownTOC autolink=true -->
 
-- dotfiles
-	- install brew
-	- install this project
-	- Install all necessary programs via my Brewfile
-- if you want to send the latest changes of your local area to this repository
-	- ohmyzsh let's delete if exists and install again.
-		- delete
-		- install
-		- create custom location of zshrc
-		- install custom ohmyzsh plugins
-	- Jenv and Multiple JDK
-	- Maven Settings
-	- rbenv and Multiple Ruby
-	- pyenv and Multiple Python
-	- goenv and Multiple Go
-	- Intellij Idea Plugins
-	- SublimeText Plugins
-	- Don't run below commands use "brewfile"
+- [dotfiles](#dotfiles)
+	- [install brew](#install-brew)
+	- [install this project](#install-this-project)
+	- [Install all necessary programs via my Brewfile](#install-all-necessary-programs-via-my-brewfile)
+- [if you want to send the latest changes of your local area to this repository](#if-you-want-to-send-the-latest-changes-of-your-local-area-to-this-repository)
+	- [ohmyzsh let's delete if exists and install again.](#ohmyzsh-lets-delete-if-exists-and-install-again)
+		- [delete](#delete)
+		- [install](#install)
+		- [create custom location of zshrc](#create-custom-location-of-zshrc)
+		- [install custom ohmyzsh plugins](#install-custom-ohmyzsh-plugins)
+	- [Jenv and Multiple JDK](#jenv-and-multiple-jdk)
+	- [Maven Settings](#maven-settings)
+	- [rbenv and Multiple Ruby](#rbenv-and-multiple-ruby)
+	- [pyenv and Multiple Python](#pyenv-and-multiple-python)
+	- [goenv and Multiple Go](#goenv-and-multiple-go)
+	- [Intellij Idea Plugins](#intellij-idea-plugins)
+	- [SublimeText Plugins](#sublimetext-plugins)
+	- [Don't run below commands use "brewfile"](#dont-run-below-commands-use-brewfile)
 
 <!-- /MarkdownTOC -->
 
