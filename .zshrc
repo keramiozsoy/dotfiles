@@ -125,3 +125,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+SAP_BTP_CLI_AUTOCOMPLETE="/Users/solvia/Library/Application Support/.btp/autocomplete/scripts/sapbtpcli-autocomplete.plugin.zsh" && fpath=("${SAP_BTP_CLI_AUTOCOMPLETE}" $fpath) && autoload -U compinit && compinit && source "${SAP_BTP_CLI_AUTOCOMPLETE}"
