@@ -317,6 +317,7 @@ Type which plugin you want to download.
 | Markdown Extended| .md file language-specific highlighter|
 | MarkdownLivePreview| offline .md preview plugin|
 | MarkdownTOC  | auto insert table of content |
+| xml2json     | convert xml -> json or json -> xml |
 
 ## Don't run below commands use "brewfile"
 ```
