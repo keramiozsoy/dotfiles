@@ -17,6 +17,7 @@
 	- [goenv and Multiple Go](#goenv-and-multiple-go)
 	- [Intellij Idea Plugins](#intellij-idea-plugins)
 	- [SublimeText Plugins](#sublimetext-plugins)
+	- [VSCode Plugins](#vscode-plugins)
 	- [Don't run below commands use "brewfile"](#dont-run-below-commands-use-brewfile)
 
 <!-- /MarkdownTOC -->
@@ -318,6 +319,14 @@ Type which plugin you want to download.
 | MarkdownLivePreview| offline .md preview plugin|
 | MarkdownTOC  | auto insert table of content |
 | xml2json     | convert xml -> json or json -> xml |
+
+## VSCode Plugins
+
+| Plugin  	| Info |
+| ------------- | ------------- |
+| ms-azuretools.vscode-docker    | Docker highligther  |
+| redhat.vscode-yaml            | Yaml file linter  |
+
 
 ## Don't run below commands use "brewfile"
 ```
