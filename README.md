@@ -190,7 +190,20 @@ $ jenv global openjdk64-1.8.0.312
 
 $ java -version
 
+
 ```
+OR 
+
+- Set local folder java to use as $JAVA_HOME
+
+```
+$ jenv local openjdk64-17.0.1
+
+$ java -version
+
+```
+
+
 
 Step 4 
 
