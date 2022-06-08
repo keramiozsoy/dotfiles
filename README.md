@@ -314,6 +314,7 @@ $ source .zshrc
 | VisualVM Launcher 	| Heap dump, thread dump |
 | Go Templates 		| Go language helper |
 | Kubernetes		| Kubernetes helper |
+| Redis Helper         | Redis Console UI|
 
 
 ## SublimeText Plugins
