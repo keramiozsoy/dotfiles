@@ -6,7 +6,7 @@ tap "homebrew/core"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Go version management
 brew "goenv"
 # Kubernetes package manager
@@ -17,7 +17,7 @@ brew "httpie"
 brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Little helper to run Rancher Lab's k3s in Docker
+# Little helper to run CNCF's k3s in Docker
 brew "k3d"
 # Run local Kubernetes cluster in Docker
 brew "kind"
@@ -63,6 +63,8 @@ cask "figma"
 cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Kubernetes IDE
+cask "lens"
 # Screen and video recording software
 cask "loom"
 # Visual diff and merge tool
@@ -79,6 +81,8 @@ cask "tableplus"
 cask "temurin"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin11"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin17"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin8"
 # Unpacks archive files

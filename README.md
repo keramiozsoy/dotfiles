@@ -385,6 +385,7 @@ $ brew install --cask
 - visualvm
 - virtualbox
 - virtualbox-extension-pack		
+- lens
 - loom
 - zoom
 
