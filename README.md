@@ -18,6 +18,7 @@
 	- [Intellij Idea Plugins](#intellij-idea-plugins)
 	- [SublimeText Plugins](#sublimetext-plugins)
 	- [VSCode Plugins](#vscode-plugins)
+	- [Browser Plugins](#browser-plugins)
 	- [Don't run below commands use "brewfile"](#dont-run-below-commands-use-brewfile)
 
 <!-- /MarkdownTOC -->
@@ -342,6 +343,16 @@ Type which plugin you want to download.
 | redhat.vscode-yaml            | Yaml file linter  |
 
 
+
+## Browser Plugins
+
+| Plugin  	| Info | Link |
+| ------------- | ------------- | ------------- |
+| dark reader    | Dark Read | darkreader.org  |
+| json viewiew   | Formatter Json | github.com/tulios/json-viewer  |
+| tab wrangler   | Less Memmory on browser | addons.mozilla.org/en-US/firefox/addon/tabwrangler |
+| vimium | Use browser with vim shortcut | github.com/philc/vimium |
+
 ## Don't run below commands use "brewfile"
 ```
 $ brew install 
@@ -351,6 +362,7 @@ $ brew install
 - helm
 - kind
 - kubectx
+- krew
 - maven
 - minikube
 - mas
