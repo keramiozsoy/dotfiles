@@ -23,6 +23,8 @@ brew "k3d"
 brew "kind"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
+# Package manager for kubectl plugins
+brew "krew"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
 # Kyma command-line interface
@@ -33,6 +35,8 @@ brew "mas"
 brew "maven"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Python version management
 brew "pyenv"
 # Ruby version manager
