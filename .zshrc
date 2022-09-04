@@ -12,6 +12,8 @@ eval "$(rbenv init -)"
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
+export PATH="${PATH}:${HOME}/.krew/bin"
+
 
 # CUSTOM
 
