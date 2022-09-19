@@ -15,10 +15,14 @@ brew "helm"
 brew "httpie"
 # Manage your Java environment
 brew "jenv"
+# Load testing and performance measurement application
+brew "jmeter"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Little helper to run CNCF's k3s in Docker
 brew "k3d"
+# Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 # Run local Kubernetes cluster in Docker
 brew "kind"
 # Kubernetes command-line interface
