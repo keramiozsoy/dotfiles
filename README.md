@@ -72,13 +72,9 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 ```
 cd ~/.dotfiles
-```
 
-```
 git config user.name "YOUR_USER_NAME"
-```
 
-```
 git config user.email YOUR_MAIL_ADDRESS
 ```
 
