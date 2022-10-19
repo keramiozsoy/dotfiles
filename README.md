@@ -26,6 +26,10 @@
 
 # dotfiles
 
+This project provides install,update and upgrade apps with one file which is Brewfile.
+You can use my Brewfile install necessary apps or you can create yours.
+
+- https://github.com/Homebrew/homebrew-bundle
 
 ## install brew
 
