@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "int128/kubelogin"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -51,6 +52,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# A kubectl plugin for Kubernetes OpenID Connect authentication
+brew "int128/kubelogin/kubelogin"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
 # Prebuilt OpenJDK binaries
@@ -71,8 +74,6 @@ cask "figma"
 cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Kubernetes IDE
-cask "lens"
 # Screen and video recording software
 cask "loom"
 # Visual diff and merge tool
