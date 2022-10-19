@@ -3,7 +3,8 @@
 - [dotfiles](#dotfiles)
 	- [install brew](#install-brew)
 	- [install this project](#install-this-project)
-	- [Install all necessary programs via my Brewfile](#install-all-necessary-programs-via-my-brewfile)
+	- [Install all necessary apps via my Brewfile](#install-all-necessary-apps-via-my-brewfile)
+	- [Create your Brewfile and later use your Brewfile](#create-your-brewfile-and-later-use-your-brewfile)
 - [if you want to send the latest changes of your local area to this repository](#if-you-want-to-send-the-latest-changes-of-your-local-area-to-this-repository)
 	- [ohmyzsh let's delete if exists and install again.](#ohmyzsh-lets-delete-if-exists-and-install-again)
 		- [delete](#delete)
@@ -37,10 +38,9 @@
 git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
 ```
 
-## Install all necessary programs via my Brewfile
+## Install all necessary apps via my Brewfile
 
-
-- Install all necessary programs via my Brewfile
+- This section provides install my apps.
 
 ```
 brew bundle --file ~/.dotfiles/Brewfile
@@ -52,7 +52,9 @@ brew bundle --file ~/.dotfiles/Brewfile
 brew bundle dump --describe
 ```
 
-- If you want to genereate new brewfile which includes all apps installed via "brew install" on your computer.
+## Create your Brewfile and later use your Brewfile
+
+- If you want to generate new brewfile which includes all apps installed via "brew install" on your computer.
 
 ```
 cd ~/.dotfiles
