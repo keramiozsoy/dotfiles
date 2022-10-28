@@ -12,6 +12,10 @@ brew "docker", link: false
 brew "goenv"
 # Kubernetes package manager
 brew "helm"
+# Command-line interface for SQLite
+brew "sqlite"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Manage your Java environment
@@ -42,8 +46,12 @@ brew "maven"
 brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
 # Python version management
 brew "pyenv"
+# Install various Ruby versions and implementations
+brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
 # Terminal multiplexer
