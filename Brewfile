@@ -106,6 +106,8 @@ cask "temurin8"
 cask "the-unarchiver"
 # Virtual machines UI using QEMU
 cask "utm"
+# Development environment
+cask "vagrant"
 # RSS and Atom reader
 cask "vienna"
 # All-in-One Java Troubleshooting Tool
