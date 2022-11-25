@@ -86,6 +86,8 @@ cask "iterm2"
 cask "loom"
 # Visual diff and merge tool
 cask "meld"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
