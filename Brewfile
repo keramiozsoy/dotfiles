@@ -1,9 +1,14 @@
 tap "adoptopenjdk/openjdk"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "int128/kubelogin"
+# Command-line interface for SQLite
+brew "sqlite"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -12,8 +17,6 @@ brew "docker", link: false
 brew "goenv"
 # Kubernetes package manager
 brew "helm"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -60,6 +63,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Terraform
+brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
