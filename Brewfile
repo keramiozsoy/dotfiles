@@ -51,6 +51,8 @@ brew "minikube"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
 # Python version management
 brew "pyenv"
 # Install various Ruby versions and implementations
@@ -63,6 +65,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Packer
+brew "hashicorp/tap/packer"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
