@@ -5,14 +5,19 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "int128/kubelogin"
+tap "spring-io/tap"
 # Command-line interface for SQLite
 brew "sqlite"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
+# GitHub command-line tool
+brew "gh"
 # Go version management
 brew "goenv"
 # Kubernetes package manager
@@ -71,6 +76,7 @@ brew "hashicorp/tap/packer"
 brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
+brew "spring-io/tap/spring-boot"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk11"
 # Prebuilt OpenJDK binaries
