@@ -15,6 +15,13 @@ eval "$(pyenv init -)"
 export PATH="${PATH}:${HOME}/.krew/bin"
 
 
+SAP_BTP_CLI_AUTOCOMPLETE="/Users/solvia/Library/Application Support/.btp/autocomplete/scripts/sapbtpcli-autocomplete.plugin.zsh" && fpath=("${SAP_BTP_CLI_AUTOCOMPLETE}" $fpath) && autoload -U compinit && compinit && source "${SAP_BTP_CLI_AUTOCOMPLETE}"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+
 # CUSTOM
 
 # If you come from bash you might have to change your $PATH.
@@ -127,4 +134,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-SAP_BTP_CLI_AUTOCOMPLETE="/Users/solvia/Library/Application Support/.btp/autocomplete/scripts/sapbtpcli-autocomplete.plugin.zsh" && fpath=("${SAP_BTP_CLI_AUTOCOMPLETE}" $fpath) && autoload -U compinit && compinit && source "${SAP_BTP_CLI_AUTOCOMPLETE}"
