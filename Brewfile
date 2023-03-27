@@ -6,6 +6,10 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "int128/kubelogin"
 tap "spring-io/tap"
+# Platform built on V8 to build network applications
+brew "node"
+# CLI tool for Angular
+brew "angular-cli"
 # Command-line interface for SQLite
 brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
@@ -20,6 +24,8 @@ brew "docker", link: false
 brew "gh"
 # Go version management
 brew "goenv"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Kubernetes package manager
 brew "helm"
 # Interpreted, interactive, object-oriented programming language
@@ -28,6 +34,8 @@ brew "python@3.10"
 brew "httpie"
 # Manage your Java environment
 brew "jenv"
+# Development kit for the Java programming language
+brew "openjdk"
 # Load testing and performance measurement application
 brew "jmeter"
 # Lightweight and flexible command-line JSON processor
@@ -54,10 +62,12 @@ brew "maven"
 brew "minikube"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Show ps output as a tree
+brew "pstree"
 # Python version management
 brew "pyenv"
 # Install various Ruby versions and implementations
@@ -70,6 +80,8 @@ brew "tmux"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Packer
 brew "hashicorp/tap/packer"
 # Terraform
@@ -103,6 +115,8 @@ cask "loom"
 cask "meld"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
+# Pomodoro timer
+cask "pomatez"
 # Collaboration platform for API development
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -127,6 +141,8 @@ cask "utm"
 cask "vagrant"
 # RSS and Atom reader
 cask "vienna"
+# Open-source code editor
+cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
 cask "visualvm"
 # Multimedia player
