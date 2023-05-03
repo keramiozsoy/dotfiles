@@ -83,7 +83,7 @@ brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Packer
-brew "hashicorp/tap/packer"
+brew "hashicorp/tap/packer", link: false
 # Terraform
 brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
@@ -113,6 +113,8 @@ cask "iterm2"
 cask "loom"
 # Visual diff and merge tool
 cask "meld"
+# Interactive tool for analyzing MongoDB data
+cask "mongodb-compass"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Pomodoro timer
