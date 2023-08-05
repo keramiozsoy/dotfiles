@@ -19,7 +19,9 @@ brew "ansible"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
 # GitHub command-line tool
 brew "gh"
 # Go version management
@@ -64,6 +66,8 @@ brew "minikube"
 brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
+# Emulator for x86 and PowerPC
+brew "qemu"
 # Tool for managing OCI containers and pods
 brew "podman"
 # Show ps output as a tree
@@ -83,7 +87,7 @@ brew "wget"
 # JavaScript package manager
 brew "yarn"
 # Packer
-brew "hashicorp/tap/packer", link: false
+brew "hashicorp/tap/packer"
 # Terraform
 brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
@@ -101,8 +105,6 @@ cask "calibre"
 cask "clipy"
 # Universal database tool and SQL client
 cask "dbeaver-community"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Collaborative team software
 cask "figma"
 # IDE for Java development - community edition
@@ -115,6 +117,8 @@ cask "loom"
 cask "meld"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# Orchestrates virtual Ubuntu instances
+cask "multipass"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
 # Pomodoro timer
@@ -141,8 +145,11 @@ cask "the-unarchiver"
 cask "utm"
 # Development environment
 cask "vagrant"
+cask "vagrant-manager"
 # RSS and Atom reader
 cask "vienna"
+# Virtualizer for x86 and arm64 hardware
+cask "virtualbox-beta"
 # Open-source code editor
 cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
@@ -156,3 +163,5 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
