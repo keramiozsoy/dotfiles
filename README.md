@@ -42,7 +42,11 @@ You can use my Brewfile install necessary apps or you can create yours.
 brew install git
 ```
 
-
+## install rosetta
+- https://support.apple.com/en-us/HT211861
+```
+sudo softwareupdate --install-rosetta
+```
 ## install this project
 ```
 git clone https://github.com/keramiozsoy/dotfiles.git ~/.dotfiles
