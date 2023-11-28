@@ -3,19 +3,20 @@ tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "int128/kubelogin"
 tap "spring-io/tap"
 # Platform built on V8 to build network applications
 brew "node"
 # CLI tool for Angular
 brew "angular-cli"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # Pack, ship and run any application as a lightweight container
@@ -24,20 +25,22 @@ brew "docker"
 brew "docker-compose"
 # GitHub command-line tool
 brew "gh"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Go version management
 brew "goenv"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Development kit for the Java programming language
+brew "openjdk"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
 # Kubernetes package manager
 brew "helm"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Manage your Java environment
 brew "jenv"
-# Development kit for the Java programming language
-brew "openjdk"
 # Load testing and performance measurement application
 brew "jmeter"
 # Lightweight and flexible command-line JSON processor
@@ -74,10 +77,14 @@ brew "podman"
 brew "pstree"
 # Python version management
 brew "pyenv"
+# File browser
+brew "ranger"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Tail multiple Kubernetes pods & their containers
+brew "stern"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -97,6 +104,8 @@ brew "spring-io/tap/spring-boot"
 cask "adoptopenjdk11"
 # Prebuilt OpenJDK binaries
 cask "adoptopenjdk8"
+# Data management tool that enables working with SQL Server
+cask "azure-data-studio"
 # Web browser focusing on privacy
 cask "brave-browser"
 # E-books management software
@@ -107,6 +116,10 @@ cask "clipy"
 cask "dbeaver-community"
 # Collaborative team software
 cask "figma"
+# Web browser
+cask "firefox"
+# Web browser
+cask "google-chrome"
 # IDE for Java development - community edition
 cask "intellij-idea-ce"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -115,12 +128,18 @@ cask "iterm2"
 cask "loom"
 # Visual diff and merge tool
 cask "meld"
+# Explorer for Azure Storage
+cask "microsoft-azure-storage-explorer"
+# Remote desktop client
+cask "microsoft-remote-desktop"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
-# Client program for the OpenVPN Access Server
-cask "openvpn-connect"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Administration and development platform for PostgreSQL
+cask "pgadmin4"
 # Pomodoro timer
 cask "pomatez"
 # Collaboration platform for API development
@@ -141,6 +160,8 @@ cask "temurin17"
 cask "temurin8"
 # Unpacks archive files
 cask "the-unarchiver"
+# Free and open-source OpenVPN client
+cask "tunnelblick"
 # Virtual machines UI using QEMU
 cask "utm"
 # Development environment
@@ -163,5 +184,8 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "DavidAnson.vscode-markdownlint"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
+vscode "scala-lang.scala"
+vscode "scalameta.metals"
