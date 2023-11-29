@@ -107,9 +107,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 #### create custom location of zshrc
 ```
 mv ~/.zshrc ~/.dotfiles/.zshrc
-```
-```
+
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
+
+mv ~/.zprofile ~/.dotfiles/.zprofile
+
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ```
 
 
