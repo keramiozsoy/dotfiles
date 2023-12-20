@@ -1,7 +1,6 @@
 tap "adoptopenjdk/openjdk"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "int128/kubelogin"
 tap "spring-io/tap"
@@ -9,12 +8,12 @@ tap "spring-io/tap"
 brew "node"
 # CLI tool for Angular
 brew "angular-cli"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
+# Command-line interface for SQLite
+brew "sqlite"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.11"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Tool for exploring each layer in a docker image
@@ -25,6 +24,8 @@ brew "docker"
 brew "docker-compose"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # Validating, recursive, caching DNS resolver
 brew "unbound"
 # Go version management
@@ -69,14 +70,14 @@ brew "minikube"
 brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
-# Emulator for x86 and PowerPC
-brew "qemu"
-# Tool for managing OCI containers and pods
-brew "podman"
 # Show ps output as a tree
 brew "pstree"
 # Python version management
 brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # File browser
 brew "ranger"
 # Install various Ruby versions and implementations
@@ -100,10 +101,6 @@ brew "hashicorp/tap/terraform"
 # A kubectl plugin for Kubernetes OpenID Connect authentication
 brew "int128/kubelogin/kubelogin"
 brew "spring-io/tap/spring-boot"
-# AdoptOpenJDK OpenJDK (Java) Development Kit
-cask "adoptopenjdk11"
-# Prebuilt OpenJDK binaries
-cask "adoptopenjdk8"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Web browser focusing on privacy
@@ -126,8 +123,6 @@ cask "intellij-idea-ce"
 cask "iterm2"
 # Screen and video recording software
 cask "loom"
-# Visual diff and merge tool
-cask "meld"
 # Explorer for Azure Storage
 cask "microsoft-azure-storage-explorer"
 # Remote desktop client
@@ -138,6 +133,8 @@ cask "mongodb-compass"
 cask "multipass"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
 # Pomodoro timer
