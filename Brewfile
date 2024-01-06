@@ -172,8 +172,6 @@ cask "vagrant"
 cask "vagrant-manager"
 # RSS and Atom reader
 cask "vienna"
-# Virtualizer for x86 and arm64 hardware
-cask "virtualbox-beta"
 # Open-source code editor
 cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
