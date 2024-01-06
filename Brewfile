@@ -14,12 +14,12 @@ brew "sqlite"
 brew "ansible"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Tool for exploring each layer in a docker image
 brew "dive"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
 # Isolated development environments using Docker
 brew "docker-compose"
 # GitHub command-line tool
@@ -94,6 +94,8 @@ brew "tree"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Packer
 brew "hashicorp/tap/packer"
 # Terraform
@@ -103,6 +105,8 @@ brew "int128/kubelogin/kubelogin"
 brew "spring-io/tap/spring-boot"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
+# Virtual Audio Driver
+cask "blackhole-16ch"
 # Web browser focusing on privacy
 cask "brave-browser"
 # E-books management software
@@ -131,6 +135,8 @@ cask "microsoft-remote-desktop"
 cask "mongodb-compass"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Client program for the OpenVPN Access Server
