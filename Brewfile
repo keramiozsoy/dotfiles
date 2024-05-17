@@ -127,26 +127,34 @@ cask "intellij-idea-ce"
 cask "iterm2"
 # Screen and video recording software
 cask "loom"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Explorer for Azure Storage
 cask "microsoft-azure-storage-explorer"
 # Remote desktop client
 cask "microsoft-remote-desktop"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Orchestrates virtual Ubuntu instances
 cask "multipass"
-# App to write, plan, collaborate, and get organized
+# App to write, plan, collaborate, and get organised
 cask "notion"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # Client program for the OpenVPN Access Server
 cask "openvpn-connect"
+# Web browser
+cask "opera"
 # Administration and development platform for PostgreSQL
 cask "pgadmin4"
 # Pomodoro timer
 cask "pomatez"
 # Collaboration platform for API development
 cask "postman"
+# IDE for Python programming - Community Edition
+cask "pycharm-ce"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Text editor for code, markup and prose
@@ -172,6 +180,8 @@ cask "vagrant"
 cask "vagrant-manager"
 # RSS and Atom reader
 cask "vienna"
+# Virtualizer for x86 and arm64 hardware
+cask "virtualbox-beta"
 # Open-source code editor
 cask "visual-studio-code"
 # All-in-One Java Troubleshooting Tool
@@ -185,8 +195,11 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-vscode "DavidAnson.vscode-markdownlint"
+vscode "amazonwebservices.aws-toolkit-vscode"
+vscode "davidanson.vscode-markdownlint"
+vscode "esbenp.prettier-vscode"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
 vscode "scala-lang.scala"
 vscode "scalameta.metals"
+vscode "sonarsource.sonarlint-vscode"
