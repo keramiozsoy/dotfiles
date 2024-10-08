@@ -1,0 +1,1 @@
+source <(ng completion script)
